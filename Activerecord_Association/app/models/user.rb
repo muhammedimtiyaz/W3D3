@@ -8,3 +8,4 @@ class User < ApplicationRecord
         through: :enrollments,
         source: :course
 end
+ 

@@ -9,6 +9,4 @@ class Enrollment < ApplicationRecord
         class_name: 'User',
         primary_key: :id,
         foreign_key: :student_id
-
-    
 end
